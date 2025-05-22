@@ -98,6 +98,9 @@ This is a real-time, corporate-grade DevOps project built completely from scratc
     Use kubeadm to initialize the cluster on the master
     Join worker nodes using kubeadm join command
 
+
+![alt text](<Screenshot 2025-05-21 200645.png>)
+
 🔹 Phase 2: Git & Source Code Setup
 
       Create Private GitHub Repository
@@ -127,6 +130,8 @@ Configure Tools:
     Docker
     Sonar Scanner
 
+![alt text](<Screenshot 2025-05-21 211610.png>)
+![alt text](<Screenshot 2025-05-21 211625.png>)
 
 🔹 Phase 4: Monitoring & Alerting
 
@@ -136,6 +141,12 @@ Configure Tools:
             Scrape configs for exporters
       Grafana Dashboards
             Visualize CPU, memory, disk usage, HTTP uptime
+
+
+![alt text](<Screenshot 2025-05-21 230135.png>)
+
+Additionaly
+
 
 
 
