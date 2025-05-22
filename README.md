@@ -130,8 +130,8 @@ Configure Tools:
     Docker
     Sonar Scanner
 
-![alt text](<Screenshot 2025-05-21 211610.png>)
-![alt text](<Screenshot 2025-05-21 211625.png>)
+![alt text](</images/Screenshot 2025-05-21 211610.png>)
+![alt text](</images/Screenshot 2025-05-21 211625.png>)
 
 🔹 Phase 4: Monitoring & Alerting
 
