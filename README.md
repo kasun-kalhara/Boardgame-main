@@ -147,6 +147,7 @@ Configure Tools:
 
 Additionaly
 
-D:\personal projects\Boardgame-main\images\Screenshot 2025-05-21 200645.png
 
 
+
+images\Screenshot 2025-05-21 200645.png
