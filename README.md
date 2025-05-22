@@ -42,12 +42,100 @@ This web application displays lists of board games and their reviews. While anyo
 - Schema.sql file to customize the schema and input initial data
 - Thymeleaf Fragments to reduce redundancy of repeating HTML elements (head, footer, navigation)
 
-## How to Run
 
-1. Clone the repository
-2. Open the project in your IDE of choice
-3. Run the application
-4. To use initial user data, use the following credentials.
-  - username: bugs    |     password: bunny (user role)
-  - username: daffy   |     password: duck  (manager role)
-5. You can also sign-up as a new user and customize your role to play with the application! 😊
+🚀 Ultimate CI/CD DevOps Pipeline Project
+
+This is a real-time, corporate-grade DevOps project built completely from scratch. It demonstrates how to design, implement, and deploy a production-ready CI/CD pipeline using the best practices and industry tools on AWS.
+
+
+
+📌 Objective
+
+      Build a complete CI/CD infrastructure using:
+      Jenkins
+      SonarQube
+      Nexus Repository
+      Docker
+      Kubernetes
+      Trivy
+      Prometheus + Grafana
+      GitHub 
+      Email Notifications
+
+🏗️ Project Architecture
+
+![alt text](<Screenshot 2025-05-22 081652.png>)
+
+
+🧪 Step-by-Step: How to Build This Project
+🔹 Phase 1: Infrastructure Setup (on AWS)
+
+1.Create VPC (or use default)
+
+    Isolate your resources in a private network.
+
+2.Launch EC2 Instances:
+
+    3 VMs for Kubernetes: 1 Master + 2 Workers
+    1 VM for Jenkins
+    1 VM for SonarQube
+    1 VM for Nexus
+    Use Ubuntu 20.04 AMIs
+
+3.Configure Security Groups:
+
+    Open necessary ports (22, 80, 443, 8080, 9000, 8081, 3000–32767, etc.)
+
+4.Install Required Tools:
+
+    Docker
+    Jenkins
+    SonarQube (Docker container)
+    Nexus Repository (Docker container)
+
+5.Install Kubernetes:
+
+    Use kubeadm to initialize the cluster on the master
+    Join worker nodes using kubeadm join command
+
+🔹 Phase 2: Git & Source Code Setup
+
+      Create Private GitHub Repository
+      Push Java Maven Project Source Code
+      Install Git on Jenkins Server
+      Generate GitHub Personal Access Token
+      Add Git credentials to Jenkins
+
+
+🔹 Phase 3: Jenkins CI/CD Pipeline
+
+Jenkins Configuration:
+
+Install Plugins:
+
+    Maven Integration
+    SonarQube Scanner
+    Docker Pipeline
+    Kubernetes CLI
+    Email Extension
+    Config File Provider
+
+Configure Tools:
+
+    JDK 17
+    Maven
+    Docker
+    Sonar Scanner
+
+
+🔹 Phase 4: Monitoring & Alerting
+
+      Node Exporter (for Jenkins & servers)
+      Blackbox Exporter (for app endpoint checks)
+      prometheus Configuration
+            Scrape configs for exporters
+      Grafana Dashboards
+            Visualize CPU, memory, disk usage, HTTP uptime
+
+
+
