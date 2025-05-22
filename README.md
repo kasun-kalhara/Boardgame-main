@@ -64,7 +64,7 @@ This is a real-time, corporate-grade DevOps project built completely from scratc
 
 🏗️ Project Architecture
 
-![alt text](<Screenshot 2025-05-22 081652.png>)
+![alt text](</images/Screenshot 2025-05-22 081652.png>)
 
 
 🧪 Step-by-Step: How to Build This Project
@@ -99,7 +99,7 @@ This is a real-time, corporate-grade DevOps project built completely from scratc
     Join worker nodes using kubeadm join command
 
 
-![alt text](<Screenshot 2025-05-21 200645.png>)
+![alt text](</images/Screenshot 2025-05-21 200645.png>)
 
 🔹 Phase 2: Git & Source Code Setup
 
@@ -143,11 +143,12 @@ Configure Tools:
             Visualize CPU, memory, disk usage, HTTP uptime
 
 
-![alt text](<Screenshot 2025-05-21 230135.png>)
+![alt text](</images/Screenshot 2025-05-21 230135.png>)
 
 Additionaly
 
-
-
-
-images\Screenshot 2025-05-21 200645.png
+![alt text](</images/Screenshot 2025-05-21 200608.png>)
+![alt text](</images/Screenshot 2025-05-21 200702.png>)
+![alt text](</images/Screenshot 2025-05-21 211925.png>)
+![alt text](</images/Screenshot 2025-05-21 230126.png>)
+![alt text](</images/Screenshot 2025-05-21 230148.png>)
